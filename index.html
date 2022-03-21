@@ -4,13 +4,95 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>M03L04 Web adaptive project</title>
+  <title>M03L05 Web adaptive project</title>
   
   <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="page">
 
+  <header class="header">
+    <div class="container container_header header__container">
+      <div class="header__header-top">
+        <div class="header__company company">
+          <div class="company__logo">
+            <img class="company__logo-image" src="img/logo.png" alt="logo" title="company logo">
+          </div>
+        </div>
+        <div class="callback header__callback">
+          <span class="header__callback-tel">+7&nbsp;(962)&nbsp;556&nbsp;-&nbsp;1234</span>
+          <a href="#" class="header__callback-link">Перезвоните мне</a>
+        </div>
+      </div>
+      <div class="header__home-content">
+        <h1 class="header__page-title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+        <p class="header__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+        <button class="header__button button button_more-detailed"></button>
+      </div>
+    </div>
+  </header>
 
+  <section class="advantages">
+    <div class="container container_advantages">
+      <h2 class="advantages__title title title_dark">Уникальный заголовок для преимущества компании</h2>
+      <p class="advantages__subtitle subtitle subtitle_dark subtitle_dashed">О нас</p>
+      <p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+      <div class="advantages__features">
+        <ol class="advantages__list">
+          <li class="advantages__item">
+            <div class="advantages__item-marker">1</div>
+            <div class="advantages__item-name">Первое целевое преимущество</div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__item-marker">2</div>
+            <div class="advantages__item-name">Второе целевое преимущество</div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__item-marker">3</div>
+            <div class="advantages__item-name">Третье целевое преимущество</div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__item-marker">4</div>
+            <div class="advantages__item-name">Четвертое целевое преимущество</div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container container_contact">
+      <h2 class="contact__title title title_white">Остались вопросы?</h2>
+      <p class="contact__subtitle subtitle subtitle_white">Оставьте номер телефона, и мы перезвоним вам</p>
+      <form action="#" class="contact__form form">
+        <input type="text" class="form__name" placeholder="Ваше имя" required>
+        <input type="text" class="form__tel" placeholder="Телефон" required>
+        <input type="text" class="form__email" placeholder="E-mail" required>
+        <button class="form__button button button_form">Перезвоните мне</button>
+        <label class="form__label">Я даю своё <a href="#" class="form__label form__label_link">согласие</a> elна обработку моих персональных данных.</label>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container container_footer">
+      <div class="footer__inner">
+        <div class="footer__company company">
+          <div class="company__logo">
+            <img class="company__logo-image" src="img/logo.png" alt="logo" title="company logo">
+          </div>
+          <div class="company__copy">
+            &copy;2022&nbsp;X-Company.<br>
+            Все&nbsp;права&nbsp;защищены.
+          </div>
+        </div>
+        <div class="footer__designer">Сделано Ивановыи Иваном</div>
+        <div class="callback footer__callback">
+          <span class="footer__callback-tel">+7&nbsp;(962)&nbsp;556&nbsp;-&nbsp;1234</span>
+          <a href="#" class="footer__callback-link">Перезвоните мне</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
