@@ -1,7 +1,8 @@
-* {
-  box-sizing: border-box;
+@import url(variables.css);
+@import url(font.css);
+@import url(normalize.css);
+@import url(global.css);
 
-  border: 1px solid rebeccapurple;
-}
-
-
+@import url(homescreen.css);
+@import url(advantages.css);
+@import url(contactscreen.css);
