@@ -118,7 +118,7 @@ section {
 Чтобы контент не прижимался к краям экрана
 */
 .container {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
 
   display: flex;
   flex-direction: column;
