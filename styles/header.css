@@ -1,29 +1,5 @@
 /* *header* */
 
-.callback {
-}
-
-/* footer__company */
-/* .header__company, */
-.company {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 19px;
-}
-
-.company__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.company__logo-image {
-  display: block;
-}
-
-.container_header {
-}
 
 .header {
   display: flex;
@@ -34,9 +10,11 @@
   padding: 40px 0;
 }
 
-.header__button {
+.container_header {
 }
 
+.header__button {
+}
 
 .header__container {
   display: flex;

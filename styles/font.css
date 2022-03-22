@@ -8,7 +8,9 @@
   font-family: "Pacifico";
   src:  local("Pacifico Regular"),
         local("Pacifico-Regular"),
-        url("../fonts/Pacifico-v21-latin-regular.woff2") format("woff2");
+        url("../fonts/Pacifico-v21-latin-regular.woff2") format("woff2"),
+        url("../fonts/Pacifico-v21-latin-regular.woff") format("woff"),
+        url("../fonts/Ppacifico-v21-latin-regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
 }
