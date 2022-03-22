@@ -25,74 +25,17 @@
 .container_header {
 }
 
-/* .header__header-top, */
-.infobar {
-  /* border: 1px solid orange; */
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header {
   display: flex;
   min-height: 732px;
-
   background: url(../img/background-contact-screen.jpg) no-repeat center;
   background-size: cover;
-
   color: var(--white);
-
   padding: 40px 0;
 }
 
 .header__button {
 }
-
-
-.infobar__designer {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 17px;
-  color: #FFFFFF;  
-}
-
-/* .header__callback, */
-.infobar__callback {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* .header__callback-tel, */
-.infobar__callback-tel {
-  display: flex;
-  font-weight: 400;
-  font-size: 23.85px;
-  line-height: 28px;
-  text-align: center;
-  color: var(--white);
-}
-/* .header__callback-link, */
-.infobar__callback-link {
-  display: flex;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  color: var(--white);
-}
-
-.infobar__copy {
-  font-weight: 500;
-font-size: 12px;
-line-height: 17px;
-
-color: #FFFFFF;
-}
-
 
 
 .header__container {
@@ -101,7 +44,6 @@ color: #FFFFFF;
   align-items: center;
   row-gap: 120px;
 }
-
 
 .header__home-content {
   /* border: 1px solid orange; */

@@ -14,10 +14,19 @@
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #ffffff;
-
-  background: #15a9cb;
+  color: var(--white);
+  background: var(--sky-blue, #15A9CB);
   border-radius: 50px;
-  border: 1px solid #15a9cb;
+  border: 1px solid var(--sky-blue, #15A9CB);
   box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+}
+
+
+.button {
+}
+
+.button_form {
+}
+
+.button_submit {
 }

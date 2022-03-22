@@ -1,23 +1,11 @@
 /* *contacts form* */
 
-.button {
-}
-
-.button_form {
-}
-
-.button_submit {
-}
-
 .contact {
   display: flex;
   min-height: 621px;
-
   background: url(../img/background-contact-screen.jpg) no-repeat center;
   background-size: cover;
-
   color: var(--white);
-
   padding: 70px 0;
 }
 
