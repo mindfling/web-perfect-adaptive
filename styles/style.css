@@ -3,6 +3,7 @@
 @import url(normalize.css);
 @import url(global.css);
 
+@import url(button.css);
 @import url(homescreen.css);
 @import url(advantages.css);
 @import url(contactscreen.css);
