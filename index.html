@@ -63,12 +63,14 @@
     <div class="container container_contact">
       <h2 class="contact__title title title_white">Остались вопросы?</h2>
       <p class="contact__subtitle subtitle subtitle_white">Оставьте номер телефона, и мы перезвоним вам</p>
-      <form action="#" class="contact__form form">
-        <input type="text" class="form__name" placeholder="Ваше имя" required>
-        <input type="text" class="form__tel" placeholder="Телефон" required>
-        <input type="text" class="form__email" placeholder="E-mail" required>
-        <button class="form__button button button_form">Перезвоните мне</button>
-        <label class="form__label">Я даю своё <a href="#" class="form__label form__label_link">согласие</a> elна обработку моих персональных данных.</label>
+      <form id="contact-form" class="contact__form form" action="https://httpbin.org/post" method="post">
+        <input id="form-name" name="name" class="form__name" type="text" placeholder="Ваше имя" required>
+        <input id="form-tel" name="tel" class="form__tel" type="text" placeholder="Телефон" required>
+        <input id="form-email" name="email" class="form__email" type="text" placeholder="E-mail" required>
+        <button id="form-submit" name="submit" class="form__button button button_form button_submit" type="submit">Перезвоните мне</button>
+        <label class="form-label" for="form-agree-check">
+          <input id="form-agree-check" name="agree-check" class="form__agree-check" type="checkbox" required>Я даю своё <a href="#" class="form__label form__label_link">согласие</a> на обработку моих персональных данных.
+        </label>
       </form>
     </div>
   </section>
