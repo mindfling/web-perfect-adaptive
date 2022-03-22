@@ -3,16 +3,36 @@
 .callback {
 }
 
+/* footer__company */
+/* .header__company, */
 .company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
 }
 
 .company__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .company__logo-image {
+  display: block;
 }
 
 .container_header {
+}
+
+/* .header__header-top, */
+.infobar {
+  /* border: 1px solid orange; */
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header {
@@ -30,39 +50,50 @@
 .header__button {
 }
 
-.header__callback {
+
+.infobar__designer {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;  
+}
+
+/* .header__callback, */
+.infobar__callback {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.header__callback-link {
+/* .header__callback-tel, */
+.infobar__callback-tel {
   display: flex;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-
-  color: #ffffff;
-}
-
-.header__callback-tel {
-  display: flex;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 23.85px;
   line-height: 28px;
   text-align: center;
-
-  color: #ffffff;
+  color: var(--white);
+}
+/* .header__callback-link, */
+.infobar__callback-link {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--white);
 }
 
-.header__company {
+.infobar__copy {
+  font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+
+color: #FFFFFF;
 }
+
+
 
 .header__container {
   display: flex;
@@ -71,13 +102,6 @@
   row-gap: 120px;
 }
 
-.header__header-top {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .header__home-content {
   /* border: 1px solid orange; */
@@ -96,19 +120,17 @@
   font-size: 52px;
   line-height: 61px;
   text-align: center;
-
   /* color: rgba(255, 255, 255, 0.86); */
+  color: var(--white);
   opacity: 0.86;
 }
 
 .header__text {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 31px;
-text-align: center;
-
-/* color: rgba(255, 255, 255, 0.75); */
-opacity: 0.75;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  /* color: rgba(255, 255, 255, 0.75); */
+  color: var(--white);
+  opacity: 0.75;
 }

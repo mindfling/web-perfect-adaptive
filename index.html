@@ -7,25 +7,24 @@
   <title>M03L05 Web adaptive project</title>
   
   <link rel="stylesheet" href="styles/style.css">
-
-  <!-- todo -->
-  <link rel="stylesheet" href="styles/advantages.css">
 </head>
 <body class="page">
 
   <header class="header">
     <div class="container container_header header__container">
-      <div class="header__header-top">
-        <div class="header__company company">
+      
+      <div class="header__header-top infobar">
+        <div class="company header__company infobar__company">
           <div class="company__logo">
             <img class="company__logo-image" src="img/logo-round.svg" alt="logo" title="company logo">
           </div>
         </div>
-        <div class="callback header__callback">
-          <span class="header__callback-tel">+7&nbsp;(962)&nbsp;556&nbsp;-&nbsp;1234</span>
-          <a href="#" class="header__callback-link">Перезвоните мне</a>
+        <div class="callback header__callback infobar__callback">
+          <span class="header__callback-tel infobar__callback-tel">+7&nbsp;(962)&nbsp;556&nbsp;-&nbsp;1234</span>
+          <a href="#" class="header__callback-link infobar__callback-link">Перезвоните мне</a>
         </div>
       </div>
+
       <div class="header__home-content">
         <h1 class="header__page-title">Заголовок c уникальным торговым предложение по системе 4U</h1>
         <p class="header__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
@@ -69,38 +68,50 @@
 
   <section class="contact">
     <div class="container container_contact">
-      <h2 class="contact__title title title_white">Остались вопросы?</h2>
-      <p class="contact__subtitle subtitle subtitle_white">Оставьте номер телефона, и мы перезвоним вам</p>
+      <div class="contact__text-content">
+        <h2 class="contact__title title title_white">Остались вопросы?</h2>
+        <p class="contact__subtitle subtitle subtitle_white">Оставьте номер телефона, и мы перезвоним вам</p>
+      </div>
       <form id="contact-form" class="contact__form form" action="https://httpbin.org/post" method="post">
-        <input id="form-name" name="name" class="form__name" type="text" placeholder="Ваше имя" required>
-        <input id="form-tel" name="tel" class="form__tel" type="text" placeholder="Телефон" required>
-        <input id="form-email" name="email" class="form__email" type="text" placeholder="E-mail" required>
+        <fieldset class="form__fields">
+          <input id="form-name" name="name" class="form__input form__input_name" type="text" placeholder="Ваше имя" required>
+          <input id="form-tel" name="tel" class="form__input form__input_tel" type="text" placeholder="Телефон" required>
+          <input id="form-email" name="email" class="form__input form__input_email" type="text" placeholder="E-mail" required>
+        </fieldset>
         <button id="form-submit" name="submit" class="form__button button button_form button_submit" type="submit">Перезвоните мне</button>
-        <label class="form-label" for="form-agree-check">
-          <input id="form-agree-check" name="agree-check" class="form__agree-check" type="checkbox" required>Я даю своё <a href="#" class="form__label form__label_link">согласие</a> на обработку моих персональных данных.
-        </label>
+
+        <div class="form__agree">
+          <input id="form-agree-check" name="agree-check" class="form__agree-check" type="checkbox" required value="ok">
+          <label class="form__label" for="form-agree-check">
+            Я даю своё 
+            &nbsp;<a href="#" class="form__label form__label_link">согласие</a>&nbsp;
+            на обработку моих персональных данных.
+          </label>
+        </div>
+
       </form>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container container_footer">
-      <div class="footer__inner">
-        <div class="footer__company company">
+
+      <div class="footer__inner infobar">
+        <div class="footer__company company infobar__company">
           <div class="company__logo">
-            <img class="company__logo-image" src="img/logo.png" alt="logo" title="company logo">
+            <img class="company__logo-image" src="img/logo-round.svg" alt="logo" title="company logo">
           </div>
-          <div class="company__copy">
-            &copy;2022&nbsp;X-Company.<br>
-            Все&nbsp;права&nbsp;защищены.
+          <div class="company__copy infobar__copy">
+            &copy;2022&nbsp;X-Company.<br>Все&nbsp;права&nbsp;защищены.
           </div>
         </div>
-        <div class="footer__designer">Сделано Ивановыи Иваном</div>
-        <div class="callback footer__callback">
-          <span class="footer__callback-tel">+7&nbsp;(962)&nbsp;556&nbsp;-&nbsp;1234</span>
-          <a href="#" class="footer__callback-link">Перезвоните мне</a>
+        <div class="footer__designer infobar__designer">Сделано Ивановыи Иваном</div>
+        <div class="callback footer__callback infobar__callback">
+          <span class="footer__callback-tel infobar__callback-tel">+7&nbsp;(962)&nbsp;556&nbsp;-&nbsp;1234</span>
+          <a href="#" class="footer__callback-link infobar__callback-link">Перезвоните мне</a>
         </div>
       </div>
+
     </div>
   </footer>
 

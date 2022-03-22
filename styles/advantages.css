@@ -82,7 +82,7 @@
 }
 
 .container_advantages {
-  /* border: 1px solid skyblue; */
+  /* border: 1px solid orange; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,6 +91,7 @@
   gap: 50px;
 }
 
+/* todo to global */
 .subtitle {
   flex-direction: row;
   font-family: "Roboto";
@@ -122,6 +123,7 @@
   background-color: var(--dark);
 }
 
+/* todo to global */
 .title {
   font-family: "Roboto";
   font-style: normal;
