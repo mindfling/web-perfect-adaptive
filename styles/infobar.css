@@ -76,17 +76,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90px;
-  height: 90px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   background-color: var(--sky-blue);
   color: var(--white);
-  /* todo */
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-size: 27px;
-
   text-transform: capitalize;
   text-decoration: none;
   cursor: pointer;
+  padding: 0px 0px 6px 2px;
 }
