@@ -1,3 +1,4 @@
+/* *GLOBAL STYLE* */
 html {
   box-sizing: border-box;
   position: relative;
@@ -9,7 +10,8 @@ html {
   box-sizing: inherit;
 }
 
-body {
+body,
+.page {
   /* todo body flex */
   display: flex;
   flex-direction: column;
@@ -23,7 +25,6 @@ body {
   font-style: normal;
   font-size: 20px;
   font-weight: 400;
- 
   background-color: var(--white);
   color: var(--dark);
 }
@@ -77,7 +78,6 @@ blockquote {
   padding: 0;
 }
 
-
 /* специальный класс для скрытого блока 
    скрыть но оставить в DOM-дереве */
 .visually-hidden {
@@ -90,7 +90,6 @@ blockquote {
   height: 1px !important;
   overflow: hidden;
 }
-
 
 /*
 У секции добавляю вертикальные паддинги,
@@ -105,7 +104,6 @@ section {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  /* 1600px */
   width: 100%;
 }
 
@@ -118,7 +116,6 @@ section {
 */
 .container {
   /* border: 1px solid magenta; */
-
   display: flex;
   flex-direction: column;
   /* 30 + 1200 + 30 */
@@ -130,11 +127,58 @@ section {
 }
 
 ::selection {
-  /* color: #fefefe; */
-  /* background-color: #ff8800; */
   /* color: var(--grey-bg); */
-  /* background-color: var(--orange-text); */
   /* background-color: var(--dark-text); */
   color: var(--white);
   background-color: var(--sky-blue);
 }
+
+
+/* todo to global TITLES */
+.title {
+  /* font-family: "Roboto"; */
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.title_dark {
+  /* color: #383A4C; */
+  color: var(--dark);
+}
+
+
+/* todo to global SUBTITLES */
+.subtitle {
+  flex-direction: row;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subtitle_dark {
+  /* color: #383A4C; */
+  color: var(--dark);
+}
+
+.subtitle_dashed {
+  /* border: 1px solid lawngreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.subtitle_dashed::before,
+.subtitle_dashed::after {
+  display: flex;
+  content: "";
+  width: 43px;
+  height: 2px;
+  background-color: var(--dark);
+}
+
+

@@ -5,7 +5,7 @@
   display: flex;
   min-height: 596px;
   padding: 70px 0;
-
+  /* todo */
   background: linear-gradient(var(--white), var(--light));
 }
 
@@ -68,8 +68,8 @@
 }
 
 .advantages__text {
-  font-family: "Roboto";
-  font-style: normal;
+  /* font-family: "Roboto"; */
+  /* font-style: normal; */
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -90,48 +90,3 @@
   gap: 50px;
 }
 
-/* todo to global */
-.subtitle {
-  flex-direction: row;
-  font-family: "Roboto";
-  font-style: italic;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
-}
-
-.subtitle_dark {
-  /* color: #383A4C; */
-  color: var(--dark);
-}
-
-.subtitle_dashed {
-  /* border: 1px solid lawngreen; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 43px;
-}
-.subtitle_dashed::before,
-.subtitle_dashed::after {
-  display: flex;
-  content: "";
-  width: 43px;
-  height: 2px;
-  background-color: var(--dark);
-}
-
-/* todo to global */
-.title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 41px;
-}
-
-.title_dark {
-  /* color: #383A4C; */
-  color: var(--dark);
-}
